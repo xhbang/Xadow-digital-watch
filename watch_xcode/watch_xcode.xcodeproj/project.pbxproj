@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		853C79FB1808E0AA000C9CCC /* alarm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = alarm.cpp; path = ../alarm.cpp; sourceTree = "<group>"; };
+		853C79FC1808E0AA000C9CCC /* animation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = animation.cpp; path = ../animation.cpp; sourceTree = "<group>"; };
+		853C79FD1808E0AA000C9CCC /* apps_calc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = apps_calc.cpp; path = ../apps_calc.cpp; sourceTree = "<group>"; };
+		853C79FE1808E0AA000C9CCC /* apps_stopwatch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = apps_stopwatch.cpp; path = ../apps_stopwatch.cpp; sourceTree = "<group>"; };
+		853C79FF1808E0AA000C9CCC /* apps_torch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = apps_torch.cpp; path = ../apps_torch.cpp; sourceTree = "<group>"; };
+		853C7A001808E0AA000C9CCC /* apps_tunemaker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = apps_tunemaker.cpp; path = ../apps_tunemaker.cpp; sourceTree = "<group>"; };
+		853C7A011808E0AA000C9CCC /* devices_battery.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = devices_battery.cpp; path = ../devices_battery.cpp; sourceTree = "<group>"; };
+		853C7A021808E0AA000C9CCC /* devices_buttons.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = devices_buttons.cpp; path = ../devices_buttons.cpp; sourceTree = "<group>"; };
+		853C7A031808E0AA000C9CCC /* devices_buzzer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = devices_buzzer.cpp; path = ../devices_buzzer.cpp; sourceTree = "<group>"; };
+		853C7A041808E0AA000C9CCC /* devices_ds3231.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = devices_ds3231.cpp; path = ../devices_ds3231.cpp; sourceTree = "<group>"; };
+		853C7A051808E0AA000C9CCC /* devices_led.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = devices_led.cpp; path = ../devices_led.cpp; sourceTree = "<group>"; };
+		853C7A061808E0AA000C9CCC /* devices_oled.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = devices_oled.cpp; path = ../devices_oled.cpp; sourceTree = "<group>"; };
+		853C7A071808E0AA000C9CCC /* display.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = display.cpp; path = ../display.cpp; sourceTree = "<group>"; };
+		853C7A081808E0AA000C9CCC /* draw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = draw.cpp; path = ../draw.cpp; sourceTree = "<group>"; };
+		853C7A091808E0AA000C9CCC /* drivers_i2c.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = drivers_i2c.cpp; path = ../drivers_i2c.cpp; sourceTree = "<group>"; };
+		853C7A0A1808E0AA000C9CCC /* drivers_spi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = drivers_spi.cpp; path = ../drivers_spi.cpp; sourceTree = "<group>"; };
+		853C7A0B1808E0AA000C9CCC /* drivers_uart.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = drivers_uart.cpp; path = ../drivers_uart.cpp; sourceTree = "<group>"; };
+		853C7A0C1808E0AA000C9CCC /* drivers_wdt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = drivers_wdt.cpp; path = ../drivers_wdt.cpp; sourceTree = "<group>"; };
+		853C7A0D1808E0AA000C9CCC /* games_game1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = games_game1.cpp; path = ../games_game1.cpp; sourceTree = "<group>"; };
+		853C7A0E1808E0AA000C9CCC /* games_game2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = games_game2.cpp; path = ../games_game2.cpp; sourceTree = "<group>"; };
+		853C7A0F1808E0AA000C9CCC /* global.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = global.cpp; path = ../global.cpp; sourceTree = "<group>"; };
+		853C7A111808E0AA000C9CCC /* alarm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = alarm.h; sourceTree = "<group>"; };
+		853C7A121808E0AA000C9CCC /* animation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = animation.h; sourceTree = "<group>"; };
+		853C7A141808E0AA000C9CCC /* calc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calc.h; sourceTree = "<group>"; };
+		853C7A151808E0AA000C9CCC /* stopwatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stopwatch.h; sourceTree = "<group>"; };
+		853C7A161808E0AA000C9CCC /* torch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = torch.h; sourceTree = "<group>"; };
+		853C7A171808E0AA000C9CCC /* tunemaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tunemaker.h; sourceTree = "<group>"; };
+		853C7A181808E0AA000C9CCC /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		853C7A191808E0AA000C9CCC /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		853C7A1B1808E0AA000C9CCC /* battery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = battery.h; sourceTree = "<group>"; };
+		853C7A1C1808E0AA000C9CCC /* buttons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = buttons.h; sourceTree = "<group>"; };
+		853C7A1D1808E0AA000C9CCC /* buzzer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = buzzer.h; sourceTree = "<group>"; };
+		853C7A1E1808E0AA000C9CCC /* ds3231.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ds3231.h; sourceTree = "<group>"; };
+		853C7A1F1808E0AA000C9CCC /* ds3231_defs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ds3231_defs.h; sourceTree = "<group>"; };
+		853C7A201808E0AA000C9CCC /* led.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = led.h; sourceTree = "<group>"; };
+		853C7A211808E0AA000C9CCC /* oled.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oled.h; sourceTree = "<group>"; };
+		853C7A221808E0AA000C9CCC /* oled_defs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oled_defs.h; sourceTree = "<group>"; };
+		853C7A231808E0AA000C9CCC /* display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = display.h; sourceTree = "<group>"; };
+		853C7A241808E0AA000C9CCC /* draw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = draw.h; sourceTree = "<group>"; };
+		853C7A261808E0AA000C9CCC /* i2c.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = i2c.h; sourceTree = "<group>"; };
+		853C7A271808E0AA000C9CCC /* spi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spi.h; sourceTree = "<group>"; };
+		853C7A281808E0AA000C9CCC /* uart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uart.h; sourceTree = "<group>"; };
+		853C7A291808E0AA000C9CCC /* wdt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wdt.h; sourceTree = "<group>"; };
+		853C7A2B1808E0AA000C9CCC /* game1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game1.h; sourceTree = "<group>"; };
+		853C7A2C1808E0AA000C9CCC /* game2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game2.h; sourceTree = "<group>"; };
+		853C7A2D1808E0AA000C9CCC /* global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		853C7A2E1808E0AA000C9CCC /* menu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = menu.h; sourceTree = "<group>"; };
+		853C7A301808E0AA000C9CCC /* alarms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = alarms.h; sourceTree = "<group>"; };
+		853C7A311808E0AA000C9CCC /* diag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = diag.h; sourceTree = "<group>"; };
+		853C7A321808E0AA000C9CCC /* display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = display.h; sourceTree = "<group>"; };
+		853C7A331808E0AA000C9CCC /* functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = functions.h; sourceTree = "<group>"; };
+		853C7A341808E0AA000C9CCC /* games.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = games.h; sourceTree = "<group>"; };
+		853C7A351808E0AA000C9CCC /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		853C7A361808E0AA000C9CCC /* settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = settings.h; sourceTree = "<group>"; };
+		853C7A371808E0AA000C9CCC /* sleep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sleep.h; sourceTree = "<group>"; };
+		853C7A381808E0AA000C9CCC /* sound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sound.h; sourceTree = "<group>"; };
+		853C7A391808E0AA000C9CCC /* timedate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = timedate.h; sourceTree = "<group>"; };
+		853C7A3A1808E0AA000C9CCC /* pwrmgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pwrmgr.h; sourceTree = "<group>"; };
+		853C7A3B1808E0AA000C9CCC /* resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resources.h; sourceTree = "<group>"; };
+		853C7A3C1808E0AA000C9CCC /* time.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = time.h; sourceTree = "<group>"; };
+		853C7A3D1808E0AA000C9CCC /* typedefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = typedefs.h; sourceTree = "<group>"; };
+		853C7A3E1808E0AA000C9CCC /* util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		853C7A3F1808E0AA000C9CCC /* watchconfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = watchconfig.h; sourceTree = "<group>"; };
+		853C7A401808E0AA000C9CCC /* watchface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = watchface.h; sourceTree = "<group>"; };
+		853C7A421808E0AA000C9CCC /* normal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = normal.h; sourceTree = "<group>"; };
+		853C7A431808E0AA000C9CCC /* segment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = segment.h; sourceTree = "<group>"; };
+		853C7A441808E0AA000C9CCC /* small.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = small.h; sourceTree = "<group>"; };
+		853C7A451808E0AA000C9CCC /* ui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		853C7A461808E0AA000C9CCC /* menu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = menu.cpp; path = ../menu.cpp; sourceTree = "<group>"; };
+		853C7A471808E0AA000C9CCC /* menus_alarms.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = menus_alarms.cpp; path = ../menus_alarms.cpp; sourceTree = "<group>"; };
+		853C7A481808E0AA000C9CCC /* menus_diag.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = menus_diag.cpp; path = ../menus_diag.cpp; sourceTree = "<group>"; };
+		853C7A491808E0AA000C9CCC /* menus_display.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = menus_display.cpp; path = ../menus_display.cpp; sourceTree = "<group>"; };
+		853C7A4A1808E0AA000C9CCC /* menus_games.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = menus_games.cpp; path = ../menus_games.cpp; sourceTree = "<group>"; };
+		853C7A4B1808E0AA000C9CCC /* menus_main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = menus_main.cpp; path = ../menus_main.cpp; sourceTree = "<group>"; };
+		853C7A4C1808E0AA000C9CCC /* menus_settings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = menus_settings.cpp; path = ../menus_settings.cpp; sourceTree = "<group>"; };
+		853C7A4D1808E0AA000C9CCC /* menus_sleep.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = menus_sleep.cpp; path = ../menus_sleep.cpp; sourceTree = "<group>"; };
+		853C7A4E1808E0AA000C9CCC /* menus_sound.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = menus_sound.cpp; path = ../menus_sound.cpp; sourceTree = "<group>"; };
+		853C7A4F1808E0AA000C9CCC /* menus_timedate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = menus_timedate.cpp; path = ../menus_timedate.cpp; sourceTree = "<group>"; };
+		853C7A501808E0AA000C9CCC /* pwrmgr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = pwrmgr.cpp; path = ../pwrmgr.cpp; sourceTree = "<group>"; };
+		853C7A511808E0AA000C9CCC /* resources.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = resources.cpp; path = ../resources.cpp; sourceTree = "<group>"; };
+		853C7A521808E0AA000C9CCC /* time.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = time.cpp; path = ../time.cpp; sourceTree = "<group>"; };
+		853C7A531808E0AA000C9CCC /* watch.ino */ = {isa = PBXFileReference; lastKnownFileType = text; name = watch.ino; path = ../watch.ino; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		853C7A541808E0AA000C9CCC /* watchconfig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = watchconfig.cpp; path = ../watchconfig.cpp; sourceTree = "<group>"; };
+		853C7A551808E0AA000C9CCC /* watchface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = watchface.cpp; path = ../watchface.cpp; sourceTree = "<group>"; };
+		853C7A561808E0AA000C9CCC /* watchfaces_normal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = watchfaces_normal.cpp; path = ../watchfaces_normal.cpp; sourceTree = "<group>"; };
+		853C7A571808E0AA000C9CCC /* watchfaces_segment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = watchfaces_segment.cpp; path = ../watchfaces_segment.cpp; sourceTree = "<group>"; };
+		853C7A581808E0AA000C9CCC /* watchfaces_small.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = watchfaces_small.cpp; path = ../watchfaces_small.cpp; sourceTree = "<group>"; };
+		853C7A591808E0AA000C9CCC /* watchfaces_ui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = watchfaces_ui.cpp; path = ../watchfaces_ui.cpp; sourceTree = "<group>"; };
+		853C7A5A1808E96E000C9CCC /* devices_ds1337.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = devices_ds1337.cpp; path = ../devices_ds1337.cpp; sourceTree = "<group>"; };
+		853C7A5B1808E97A000C9CCC /* ds1337_defs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ds1337_defs.h; sourceTree = "<group>"; };
+		853C7A5C1808E97A000C9CCC /* ds1337.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ds1337.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		853C79F41808E08E000C9CCC = {
+			isa = PBXGroup;
+			children = (
+				853C79FB1808E0AA000C9CCC /* alarm.cpp */,
+				853C79FC1808E0AA000C9CCC /* animation.cpp */,
+				853C79FD1808E0AA000C9CCC /* apps_calc.cpp */,
+				853C79FE1808E0AA000C9CCC /* apps_stopwatch.cpp */,
+				853C79FF1808E0AA000C9CCC /* apps_torch.cpp */,
+				853C7A001808E0AA000C9CCC /* apps_tunemaker.cpp */,
+				853C7A011808E0AA000C9CCC /* devices_battery.cpp */,
+				853C7A021808E0AA000C9CCC /* devices_buttons.cpp */,
+				853C7A031808E0AA000C9CCC /* devices_buzzer.cpp */,
+				853C7A5A1808E96E000C9CCC /* devices_ds1337.cpp */,
+				853C7A041808E0AA000C9CCC /* devices_ds3231.cpp */,
+				853C7A051808E0AA000C9CCC /* devices_led.cpp */,
+				853C7A061808E0AA000C9CCC /* devices_oled.cpp */,
+				853C7A071808E0AA000C9CCC /* display.cpp */,
+				853C7A081808E0AA000C9CCC /* draw.cpp */,
+				853C7A091808E0AA000C9CCC /* drivers_i2c.cpp */,
+				853C7A0A1808E0AA000C9CCC /* drivers_spi.cpp */,
+				853C7A0B1808E0AA000C9CCC /* drivers_uart.cpp */,
+				853C7A0C1808E0AA000C9CCC /* drivers_wdt.cpp */,
+				853C7A0D1808E0AA000C9CCC /* games_game1.cpp */,
+				853C7A0E1808E0AA000C9CCC /* games_game2.cpp */,
+				853C7A0F1808E0AA000C9CCC /* global.cpp */,
+				853C7A101808E0AA000C9CCC /* includes */,
+				853C7A461808E0AA000C9CCC /* menu.cpp */,
+				853C7A471808E0AA000C9CCC /* menus_alarms.cpp */,
+				853C7A481808E0AA000C9CCC /* menus_diag.cpp */,
+				853C7A491808E0AA000C9CCC /* menus_display.cpp */,
+				853C7A4A1808E0AA000C9CCC /* menus_games.cpp */,
+				853C7A4B1808E0AA000C9CCC /* menus_main.cpp */,
+				853C7A4C1808E0AA000C9CCC /* menus_settings.cpp */,
+				853C7A4D1808E0AA000C9CCC /* menus_sleep.cpp */,
+				853C7A4E1808E0AA000C9CCC /* menus_sound.cpp */,
+				853C7A4F1808E0AA000C9CCC /* menus_timedate.cpp */,
+				853C7A501808E0AA000C9CCC /* pwrmgr.cpp */,
+				853C7A511808E0AA000C9CCC /* resources.cpp */,
+				853C7A521808E0AA000C9CCC /* time.cpp */,
+				853C7A531808E0AA000C9CCC /* watch.ino */,
+				853C7A541808E0AA000C9CCC /* watchconfig.cpp */,
+				853C7A551808E0AA000C9CCC /* watchface.cpp */,
+				853C7A561808E0AA000C9CCC /* watchfaces_normal.cpp */,
+				853C7A571808E0AA000C9CCC /* watchfaces_segment.cpp */,
+				853C7A581808E0AA000C9CCC /* watchfaces_small.cpp */,
+				853C7A591808E0AA000C9CCC /* watchfaces_ui.cpp */,
+			);
+			sourceTree = "<group>";
+		};
+		853C7A101808E0AA000C9CCC /* includes */ = {
+			isa = PBXGroup;
+			children = (
+				853C7A111808E0AA000C9CCC /* alarm.h */,
+				853C7A121808E0AA000C9CCC /* animation.h */,
+				853C7A131808E0AA000C9CCC /* apps */,
+				853C7A181808E0AA000C9CCC /* common.h */,
+				853C7A191808E0AA000C9CCC /* config.h */,
+				853C7A1A1808E0AA000C9CCC /* devices */,
+				853C7A231808E0AA000C9CCC /* display.h */,
+				853C7A241808E0AA000C9CCC /* draw.h */,
+				853C7A251808E0AA000C9CCC /* drivers */,
+				853C7A2A1808E0AA000C9CCC /* games */,
+				853C7A2D1808E0AA000C9CCC /* global.h */,
+				853C7A2E1808E0AA000C9CCC /* menu.h */,
+				853C7A2F1808E0AA000C9CCC /* menus */,
+				853C7A3A1808E0AA000C9CCC /* pwrmgr.h */,
+				853C7A3B1808E0AA000C9CCC /* resources.h */,
+				853C7A3C1808E0AA000C9CCC /* time.h */,
+				853C7A3D1808E0AA000C9CCC /* typedefs.h */,
+				853C7A3E1808E0AA000C9CCC /* util.h */,
+				853C7A3F1808E0AA000C9CCC /* watchconfig.h */,
+				853C7A401808E0AA000C9CCC /* watchface.h */,
+				853C7A411808E0AA000C9CCC /* watchfaces */,
+			);
+			name = includes;
+			path = ../includes;
+			sourceTree = "<group>";
+		};
+		853C7A131808E0AA000C9CCC /* apps */ = {
+			isa = PBXGroup;
+			children = (
+				853C7A141808E0AA000C9CCC /* calc.h */,
+				853C7A151808E0AA000C9CCC /* stopwatch.h */,
+				853C7A161808E0AA000C9CCC /* torch.h */,
+				853C7A171808E0AA000C9CCC /* tunemaker.h */,
+			);
+			path = apps;
+			sourceTree = "<group>";
+		};
+		853C7A1A1808E0AA000C9CCC /* devices */ = {
+			isa = PBXGroup;
+			children = (
+				853C7A5B1808E97A000C9CCC /* ds1337_defs.h */,
+				853C7A5C1808E97A000C9CCC /* ds1337.h */,
+				853C7A1B1808E0AA000C9CCC /* battery.h */,
+				853C7A1C1808E0AA000C9CCC /* buttons.h */,
+				853C7A1D1808E0AA000C9CCC /* buzzer.h */,
+				853C7A1E1808E0AA000C9CCC /* ds3231.h */,
+				853C7A1F1808E0AA000C9CCC /* ds3231_defs.h */,
+				853C7A201808E0AA000C9CCC /* led.h */,
+				853C7A211808E0AA000C9CCC /* oled.h */,
+				853C7A221808E0AA000C9CCC /* oled_defs.h */,
+			);
+			path = devices;
+			sourceTree = "<group>";
+		};
+		853C7A251808E0AA000C9CCC /* drivers */ = {
+			isa = PBXGroup;
+			children = (
+				853C7A261808E0AA000C9CCC /* i2c.h */,
+				853C7A271808E0AA000C9CCC /* spi.h */,
+				853C7A281808E0AA000C9CCC /* uart.h */,
+				853C7A291808E0AA000C9CCC /* wdt.h */,
+			);
+			path = drivers;
+			sourceTree = "<group>";
+		};
+		853C7A2A1808E0AA000C9CCC /* games */ = {
+			isa = PBXGroup;
+			children = (
+				853C7A2B1808E0AA000C9CCC /* game1.h */,
+				853C7A2C1808E0AA000C9CCC /* game2.h */,
+			);
+			path = games;
+			sourceTree = "<group>";
+		};
+		853C7A2F1808E0AA000C9CCC /* menus */ = {
+			isa = PBXGroup;
+			children = (
+				853C7A301808E0AA000C9CCC /* alarms.h */,
+				853C7A311808E0AA000C9CCC /* diag.h */,
+				853C7A321808E0AA000C9CCC /* display.h */,
+				853C7A331808E0AA000C9CCC /* functions.h */,
+				853C7A341808E0AA000C9CCC /* games.h */,
+				853C7A351808E0AA000C9CCC /* main.h */,
+				853C7A361808E0AA000C9CCC /* settings.h */,
+				853C7A371808E0AA000C9CCC /* sleep.h */,
+				853C7A381808E0AA000C9CCC /* sound.h */,
+				853C7A391808E0AA000C9CCC /* timedate.h */,
+			);
+			path = menus;
+			sourceTree = "<group>";
+		};
+		853C7A411808E0AA000C9CCC /* watchfaces */ = {
+			isa = PBXGroup;
+			children = (
+				853C7A421808E0AA000C9CCC /* normal.h */,
+				853C7A431808E0AA000C9CCC /* segment.h */,
+				853C7A441808E0AA000C9CCC /* small.h */,
+				853C7A451808E0AA000C9CCC /* ui.h */,
+			);
+			path = watchfaces;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		853C79F51808E08E000C9CCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 853C79F81808E08E000C9CCC /* Build configuration list for PBXProject "watch_xcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 853C79F41808E08E000C9CCC;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		853C79F91808E08E000C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		853C79FA1808E08E000C9CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		853C79F81808E08E000C9CCC /* Build configuration list for PBXProject "watch_xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853C79F91808E08E000C9CCC /* Debug */,
+				853C79FA1808E08E000C9CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 853C79F51808E08E000C9CCC /* Project object */;
+}

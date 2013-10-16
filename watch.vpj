@@ -1,0 +1,350 @@
+<!DOCTYPE Project SYSTEM "http://www.slickedit.com/dtd/vse/10.0/vpj.dtd">
+<Project
+    Version="10.0"
+    VendorName="SlickEdit"
+    TemplateName="GNU C/C++"
+    WorkingDir="."
+    BuildSystem="vsbuild">
+    <Config
+        Name="Debug"
+        Type="gnuc"
+        DebugCallbackName="gdb"
+        Version="1"
+        OutputFile="%bdwatch"
+        CompilerConfigName="Latest Version">
+        <Menu>
+            <Target
+                Name="Compile"
+                MenuCaption="&amp;Compile"
+                Dialog="_gnuc_options_form Compile"
+                CaptureOutputWith="ProcessBuffer"
+                Deletable="0"
+                OutputExts="*.o"
+                SaveOption="SaveCurrent"
+                RunFromDir="%rw">
+                <Exec CmdLine='g++ -c %xup  %defd -g -o "%bd%n%oe" %i "%f"'/>
+            </Target>
+            <Target
+                Name="Link"
+                MenuCaption="&amp;Link"
+                ShowOnMenu="Never"
+                Dialog="_gnuc_options_form Link"
+                CaptureOutputWith="ProcessBuffer"
+                Deletable="0"
+                SaveOption="SaveCurrent"
+                RunFromDir="%rw">
+                <Exec CmdLine='g++ %xup -g -o "%o" %f %libs'/>
+            </Target>
+            <Target
+                Name="Build"
+                MenuCaption="&amp;Build"
+                Dialog="_gnuc_options_form Compile"
+                CaptureOutputWith="ProcessBuffer"
+                Deletable="0"
+                SaveOption="SaveWorkspaceFiles"
+                RunFromDir="%rw">
+                <Exec CmdLine='"%(VSLICKBIN1)vsbuild" "%w" "%r" -t build'/>
+            </Target>
+            <Target
+                Name="Rebuild"
+                MenuCaption="&amp;Rebuild"
+                Dialog="_gnuc_options_form Compile"
+                CaptureOutputWith="ProcessBuffer"
+                Deletable="0"
+                SaveOption="SaveWorkspaceFiles"
+                RunFromDir="%rw">
+                <Exec CmdLine='"%(VSLICKBIN1)vsbuild" "%w" "%r" -t rebuild'/>
+            </Target>
+            <Target
+                Name="Debug"
+                MenuCaption="&amp;Debug"
+                Dialog="_gnuc_options_form Run/Debug"
+                BuildFirst="1"
+                CaptureOutputWith="ProcessBuffer"
+                Deletable="0"
+                SaveOption="SaveNone"
+                RunFromDir="%rw">
+                <Exec CmdLine='vsdebugio -prog "%o"'/>
+            </Target>
+            <Target
+                Name="Execute"
+                MenuCaption="E&amp;xecute"
+                Dialog="_gnuc_options_form Run/Debug"
+                BuildFirst="1"
+                CaptureOutputWith="ProcessBuffer"
+                Deletable="0"
+                SaveOption="SaveWorkspaceFiles"
+                RunFromDir="%rw">
+                <Exec CmdLine='"%o"'/>
+            </Target>
+            <Target
+                Name="dash"
+                MenuCaption="-"
+                Deletable="0">
+                <Exec/>
+            </Target>
+            <Target
+                Name="GNU C Options"
+                MenuCaption="GNU C &amp;Options..."
+                ShowOnMenu="HideIfNoCmdLine"
+                Deletable="0"
+                SaveOption="SaveNone">
+                <Exec
+                    CmdLine="gnucoptions"
+                    Type="Slick-C"/>
+            </Target>
+        </Menu>
+        <List Name="GNUC Options">
+            <Item
+                Name="LinkerOutputType"
+                Value="Executable"/>
+        </List>
+    </Config>
+    <Config
+        Name="Release"
+        Type="gnuc"
+        DebugCallbackName="gdb"
+        Version="1"
+        OutputFile="%bdwatch"
+        CompilerConfigName="Latest Version">
+        <Menu>
+            <Target
+                Name="Compile"
+                MenuCaption="&amp;Compile"
+                Dialog="_gnuc_options_form Compile"
+                CaptureOutputWith="ProcessBuffer"
+                Deletable="0"
+                OutputExts="*.o"
+                SaveOption="SaveCurrent"
+                RunFromDir="%rw">
+                <Exec CmdLine='g++ -c %xup %defd -o "%bd%n%oe" %i "%f"'/>
+            </Target>
+            <Target
+                Name="Link"
+                MenuCaption="&amp;Link"
+                ShowOnMenu="Never"
+                Dialog="_gnuc_options_form Link"
+                CaptureOutputWith="ProcessBuffer"
+                Deletable="0"
+                SaveOption="SaveCurrent"
+                RunFromDir="%rw">
+                <Exec CmdLine='g++ %xup -o "%o" %f %libs'/>
+            </Target>
+            <Target
+                Name="Build"
+                MenuCaption="&amp;Build"
+                Dialog="_gnuc_options_form Compile"
+                CaptureOutputWith="ProcessBuffer"
+                Deletable="0"
+                SaveOption="SaveWorkspaceFiles"
+                RunFromDir="%rw">
+                <Exec CmdLine='"%(VSLICKBIN1)vsbuild" "%w" "%r" -t build'/>
+            </Target>
+            <Target
+                Name="Rebuild"
+                MenuCaption="&amp;Rebuild"
+                Dialog="_gnuc_options_form Compile"
+                CaptureOutputWith="ProcessBuffer"
+                Deletable="0"
+                SaveOption="SaveWorkspaceFiles"
+                RunFromDir="%rw">
+                <Exec CmdLine='"%(VSLICKBIN1)vsbuild" "%w" "%r" -t rebuild'/>
+            </Target>
+            <Target
+                Name="Debug"
+                MenuCaption="&amp;Debug"
+                Dialog="_gnuc_options_form Run/Debug"
+                BuildFirst="1"
+                CaptureOutputWith="ProcessBuffer"
+                Deletable="0"
+                SaveOption="SaveNone"
+                RunFromDir="%rw">
+                <Exec CmdLine='vsdebugio -prog "%o"'/>
+            </Target>
+            <Target
+                Name="Execute"
+                MenuCaption="E&amp;xecute"
+                Dialog="_gnuc_options_form Run/Debug"
+                BuildFirst="1"
+                CaptureOutputWith="ProcessBuffer"
+                Deletable="0"
+                SaveOption="SaveWorkspaceFiles"
+                RunFromDir="%rw">
+                <Exec CmdLine='"%o"'/>
+            </Target>
+            <Target
+                Name="dash"
+                MenuCaption="-"
+                Deletable="0">
+                <Exec/>
+            </Target>
+            <Target
+                Name="GNU C Options"
+                MenuCaption="GNU C &amp;Options..."
+                ShowOnMenu="HideIfNoCmdLine"
+                Deletable="0"
+                SaveOption="SaveNone">
+                <Exec
+                    CmdLine="gnucoptions"
+                    Type="Slick-C"/>
+            </Target>
+        </Menu>
+        <List Name="GNUC Options">
+            <Item
+                Name="LinkerOutputType"
+                Value="Executable"/>
+        </List>
+    </Config>
+    <CustomFolders>
+        <Folder
+            Name="Source Files"
+            Filters="*.c;*.C;*.cc;*.cpp;*.cp;*.cxx;*.c++;*.prg;*.pas;*.dpr;*.asm;*.s;*.bas;*.java;*.cs;*.sc;*.e;*.cob;*.html;*.rc;*.tcl;*.py;*.pl;*.d;*.m;*.mm;*.go">
+        </Folder>
+        <Folder
+            Name="Header Files"
+            Filters="*.h;*.H;*.hh;*.hpp;*.hxx;*.inc;*.sh;*.cpy;*.if">
+        </Folder>
+        <Folder
+            Name="Resource Files"
+            Filters="*.ico;*.cur;*.dlg"/>
+        <Folder
+            Name="Bitmaps"
+            Filters="*.bmp"/>
+        <Folder
+            Name="Other Files"
+            Filters="">
+        </Folder>
+    </CustomFolders>
+    <Files AutoFolders="DirectoryView">
+        <Folder Name="Debug">
+            <F N="Debug/watch.vpb"/>
+        </Folder>
+        <Folder Name="deleted_files">
+            <Folder Name="millis">
+                <F N="deleted_files/millis/millis.h"/>
+            </Folder>
+            <F N="deleted_files/.DS_Store"/>
+            <F N="deleted_files/devices_ds3231.cpp"/>
+            <F N="deleted_files/drivers_i2c.cpp"/>
+            <F N="deleted_files/drivers_spi.cpp"/>
+            <F N="deleted_files/drivers_uart.cpp"/>
+            <F N="deleted_files/ds3231.h"/>
+            <F N="deleted_files/ds3231_defs.h"/>
+            <F N="deleted_files/main.c"/>
+            <F N="deleted_files/millis_millis.cpp"/>
+        </Folder>
+        <Folder Name="watch_xcode">
+            <Folder Name="watch_xcode.xcodeproj">
+                <Folder Name="project.xcworkspace">
+                    <Folder Name="xcuserdata">
+                        <Folder Name="jacky.xcuserdatad">
+                            <F N="watch_xcode/watch_xcode.xcodeproj/project.xcworkspace/xcuserdata/jacky.xcuserdatad/UserInterfaceState.xcuserstate"/>
+                        </Folder>
+                    </Folder>
+                    <F N="watch_xcode/watch_xcode.xcodeproj/project.xcworkspace/contents.xcworkspacedata"/>
+                </Folder>
+                <Folder Name="xcuserdata">
+                    <Folder Name="jacky.xcuserdatad">
+                        <Folder Name="xcdebugger">
+                            <F N="watch_xcode/watch_xcode.xcodeproj/xcuserdata/jacky.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist"/>
+                        </Folder>
+                    </Folder>
+                </Folder>
+                <F N="watch_xcode/watch_xcode.xcodeproj/project.pbxproj"/>
+            </Folder>
+        </Folder>
+        <F N=".DS_Store"/>
+        <F N="alarm.cpp"/>
+        <F N="alarm.h"/>
+        <F N="animation.cpp"/>
+        <F N="animation.h"/>
+        <F N="apps_calc.cpp"/>
+        <F N="apps_calc.h"/>
+        <F N="apps_stopwatch.cpp"/>
+        <F N="apps_stopwatch.h"/>
+        <F N="apps_torch.cpp"/>
+        <F N="apps_torch.h"/>
+        <F N="apps_tunemaker.cpp"/>
+        <F N="apps_tunemaker.h"/>
+        <F N="common.h"/>
+        <F N="config.h"/>
+        <F N="devices_battery.cpp"/>
+        <F N="devices_battery.h"/>
+        <F N="devices_buttons.cpp"/>
+        <F N="devices_buttons.h"/>
+        <F N="devices_buzzer.cpp"/>
+        <F N="devices_buzzer.h"/>
+        <F N="devices_ds1337.cpp"/>
+        <F N="devices_ds1337.h"/>
+        <F N="devices_ds1337_defs.h"/>
+        <F N="devices_led.cpp"/>
+        <F N="devices_led.h"/>
+        <F N="devices_oled.cpp"/>
+        <F N="devices_oled.h"/>
+        <F N="devices_oled_defs.h"/>
+        <F N="display.cpp"/>
+        <F N="display.h"/>
+        <F N="draw.cpp"/>
+        <F N="draw.h"/>
+        <F N="drivers_ds1337.cpp"/>
+        <F N="drivers_ds1337.h"/>
+        <F N="drivers_i2c.h"/>
+        <F N="drivers_spi.h"/>
+        <F N="drivers_uart.h"/>
+        <F N="drivers_wdt.cpp"/>
+        <F N="drivers_wdt.h"/>
+        <F N="games_game1.cpp"/>
+        <F N="games_game1.h"/>
+        <F N="games_game2.cpp"/>
+        <F N="games_game2.h"/>
+        <F N="global.cpp"/>
+        <F N="global.h"/>
+        <F N="menu.cpp"/>
+        <F N="menu.h"/>
+        <F N="menus_alarms.cpp"/>
+        <F N="menus_alarms.h"/>
+        <F N="menus_diag.cpp"/>
+        <F N="menus_diag.h"/>
+        <F N="menus_display.cpp"/>
+        <F N="menus_display.h"/>
+        <F N="menus_functions.h"/>
+        <F N="menus_games.cpp"/>
+        <F N="menus_games.h"/>
+        <F N="menus_main.cpp"/>
+        <F N="menus_main.h"/>
+        <F N="menus_settings.cpp"/>
+        <F N="menus_settings.h"/>
+        <F N="menus_sleep.cpp"/>
+        <F N="menus_sleep.h"/>
+        <F N="menus_sound.cpp"/>
+        <F N="menus_sound.h"/>
+        <F N="menus_timedate.cpp"/>
+        <F N="menus_timedate.h"/>
+        <F N="pwrmgr.cpp"/>
+        <F N="pwrmgr.h"/>
+        <F N="resources.cpp"/>
+        <F N="resources.h"/>
+        <F N="time.cpp"/>
+        <F N="time.h"/>
+        <F N="typedefs.h"/>
+        <F N="util.h"/>
+        <F N="watch.cproj"/>
+        <F N="watch.ino"/>
+        <F N="watch.vpj"/>
+        <F N="watch.vpw"/>
+        <F N="watch.vpwhistu"/>
+        <F N="watch.vtg"/>
+        <F N="watchconfig.cpp"/>
+        <F N="watchconfig.h"/>
+        <F N="watchface.cpp"/>
+        <F N="watchface.h"/>
+        <F N="watchfaces_normal.cpp"/>
+        <F N="watchfaces_normal.h"/>
+        <F N="watchfaces_segment.cpp"/>
+        <F N="watchfaces_segment.h"/>
+        <F N="watchfaces_small.cpp"/>
+        <F N="watchfaces_small.h"/>
+        <F N="watchfaces_ui.cpp"/>
+        <F N="watchfaces_ui.h"/>
+    </Files>
+</Project>
